@@ -1,18 +1,26 @@
-# Web Security Resources
+<p align="center">
+  <a href="https://hackr.gg">
+    <img src="https://hackr.gg/glitch-logo.png" alt="hackr.gg" width="80" />
+  </a>
+</p>
 
-A curated collection of web security guides, hands-on labs, cheat sheets, and learning resources for ethical hackers, penetration testers, and bug bounty hunters.
+<h3 align="center"><a href="https://hackr.gg">hackr.gg</a> — Web Security Resources</h3>
+
+<p align="center">
+  Hands-on hacking labs, vulnerability guides, cheat sheets, and career resources for ethical hackers and penetration testers.
+  <br />
+  <a href="https://hackr.gg/rooms">Browse Labs</a> · <a href="https://hackr.gg/academy">Academy</a> · <a href="https://hackr.gg/blog">Blog</a> · <a href="https://hackr.gg/pricing">Pricing</a>
+</p>
 
 ---
 
 ## Hands-On Hacking Labs
 
-The fastest way to learn web security is by exploiting real vulnerabilities — not reading about them.
-
 **[hackr.gg](https://hackr.gg)** — Browser-based hacking labs with real vulnerable machines. No setup, no VPN. Spin up a live target, get a shell, capture a flag. Covers SQL injection, XSS, IDOR, SSRF, CSRF, command injection, JWT attacks, privilege escalation, and more.
 
 - [Browse all labs](https://hackr.gg/rooms) — 60+ vulnerable machines across 30+ attack categories
 - [Academy](https://hackr.gg/academy) — Structured modules from beginner to advanced
-- [Pricing](https://hackr.gg/pricing) — Free tier available, no credit card required
+- [Free tier available](https://hackr.gg/pricing) — No credit card required
 
 ---
 
@@ -84,46 +92,26 @@ New to ethical hacking? These guides cover the realistic path from zero to your 
 
 ---
 
-## Tools
+## Tools Reference
 
-Essential tools for web security testing:
+Essential tools covered in hackr.gg labs:
 
-| Tool | Purpose |
-|---|---|
-| [Burp Suite](https://portswigger.net/burp) | Web proxy and security testing — [beginner guide](https://hackr.gg/blog/how-to-use-burp-suite) |
-| sqlmap | Automated SQL injection detection and exploitation |
-| ffuf | Fast web fuzzer for directory and parameter discovery |
-| nmap | Network scanner and service version detection |
-| hydra | Network login brute-forcer |
-| linpeas | Linux privilege escalation enumeration |
+| Tool | Purpose | Guide |
+|---|---|---|
+| Burp Suite | Web proxy and security testing | [Beginner guide](https://hackr.gg/blog/how-to-use-burp-suite) |
+| sqlmap | Automated SQL injection exploitation | [SQLi labs](https://hackr.gg/rooms) |
+| ffuf | Fast web fuzzer | [Practice live](https://hackr.gg/rooms) |
+| nmap | Network scanner | [Practice live](https://hackr.gg/rooms) |
+| hydra | Login brute-forcer | [Practice live](https://hackr.gg/rooms) |
+| linpeas | Linux privesc enumeration | [Privesc lab](https://hackr.gg/rooms) |
 
 ---
 
 ## Fundamentals
 
 - [How HTTPS Actually Works (And What It Doesn't Protect)](https://hackr.gg/blog/how-https-works)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/) — The ten most critical web application security risks
-
----
-
-## Practice Platforms
-
-| Platform | Best for |
-|---|---|
-| [hackr.gg](https://hackr.gg) | Browser-based labs, no setup, beginner to advanced |
-| HackTheBox | CTF-style machines, active community |
-| TryHackMe | Guided learning paths |
-| PortSwigger Web Academy | Web-only, deep coverage |
-| PentesterLab | Code review and exploitation |
-
----
-
-## Further Reading
-
 - [Best Free Hacking Labs Online: An Honest Comparison](https://hackr.gg/blog/hacking-labs-online)
-- [CVE Database](https://cve.mitre.org/) — Public vulnerability database
-- [Exploit-DB](https://www.exploit-db.com/) — Archive of public exploits
 
 ---
 
-*Built by [hackr.gg](https://hackr.gg) — hands-on cybersecurity training in your browser.*
+*[hackr.gg](https://hackr.gg) — hands-on cybersecurity training in your browser. No setup. No VPN. Just hacking.*
